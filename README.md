@@ -40,3 +40,8 @@ Tran Quoc Ky – Backend Golang Developer
 ### Run locally
 ```bash
 go run ./cmd/server
+Run with Docker
+docker build -t ecommerce-api .
+docker run -p 8080:8080 ecommerce-api
+Health Check
+GET http://localhost:8080/health
