@@ -35,3 +35,8 @@ This project is under active development.
 
 ## 📎 Author
 Tran Quoc Ky – Backend Golang Developer
+## ▶️ Run Application
+
+### Run locally
+```bash
+go run ./cmd/server
